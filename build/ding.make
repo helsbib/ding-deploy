@@ -196,6 +196,7 @@ projects[mothership][version] = "1.1"
 projects[dynamo][type] = "theme" 
 projects[dynamo][download][type] = "git" 
 projects[dynamo][download][url] = "git://github.com/dingproject/dynamo.git"
+projects[dynamo][download][branch] = "v2.0"
 
 ; Ding modules
 
@@ -214,6 +215,18 @@ projects[ding_campaign][download][url] = "git://github.com/dingproject/ding-camp
 projects[ting][type] = "module" 
 projects[ting][download][type] = "git" 
 projects[ting][download][url] = "git://github.com/dingproject/ting.git"
+
+; Elsinore specific
+
+projects[elsinore][type] = "theme"
+projects[elsinore][download][type] = "git"
+projects[elsinore][download][url] = "git://github.com/reload/elsinore.git"
+
+projects[backup_migrate][subdir] = "contrib"
+projects[backup_migrate][version] = "2.2"
+
+projects[memcache][subdir] = "contrib"
+projects[memcache][version] = "1.5"
 
 ; Libraries
 libraries[ting-client][download][type] = "git"
