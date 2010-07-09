@@ -228,6 +228,9 @@ projects[backup_migrate][version] = "2.2"
 projects[memcache][subdir] = "contrib"
 projects[memcache][version] = "1.5"
 
+projects[addthis][subdir] = "contrib"
+projects[addthis][version] = "2.9"
+
 ; Libraries
 libraries[ting-client][download][type] = "git"
 libraries[ting-client][download][url] = "git://github.com/dingproject/ting-client.git"
