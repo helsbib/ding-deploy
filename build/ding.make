@@ -122,7 +122,7 @@ projects[office_hours][type] = "module"
 projects[office_hours][subdir] = "contrib"
 projects[office_hours][download][type] = "git" 
 projects[office_hours][download][url] = "git://github.com/mikl/drupal-office_hours.git"
-projects[office_hours][download][revision] = "aec264ee81d9cfe111e7a47443b8814f043b9360"
+projects[office_hours][download][revision] = "DRUPAL-6--2-0-UNOFFICIAL3"
 
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.5"
@@ -195,7 +195,6 @@ projects[mothership][version] = "1.1"
 projects[dynamo][type] = "theme" 
 projects[dynamo][download][type] = "git" 
 projects[dynamo][download][url] = "git://github.com/dingproject/dynamo.git"
-projects[dynamo][download][branch] = "v2.0"
 
 ; Ding modules
 
