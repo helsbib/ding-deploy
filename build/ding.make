@@ -222,6 +222,10 @@ projects[ting][download][url] = "git://github.com/dingproject/ting.git"
 
 ; Elsinore specific
 
+projects[helbib][type] = "module"
+projects[helbib][download][type] = "git"
+projects[helbib][download][url] = "git://github.com/reload/helbib.git"
+
 projects[elsinore][type] = "theme"
 projects[elsinore][download][type] = "git"
 projects[elsinore][download][url] = "git://github.com/reload/elsinore.git"
