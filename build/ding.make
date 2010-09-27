@@ -227,11 +227,11 @@ projects[ting][download][url] = "https://github.com/dingproject/ting.git"
 
 projects[helbib][type] = "module"
 projects[helbib][download][type] = "git"
-projects[helbib][download][url] = "git://github.com/reload/helbib.git"
+projects[helbib][download][url] = "https://github.com/reload/helbib.git"
 
 projects[elsinore][type] = "theme"
 projects[elsinore][download][type] = "git"
-projects[elsinore][download][url] = "git://github.com/reload/elsinore.git"
+projects[elsinore][download][url] = "https://github.com/reload/elsinore.git"
 
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.2"
