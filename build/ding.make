@@ -121,6 +121,9 @@ projects[masquerade][version] = "1.4"
 projects[menu_breadcrumb][subdir] = "contrib"
 projects[menu_breadcrumb][version] = "1.3"
 
+projects[node_export][subdir] = "contrib"
+projects[node_export][version] = "2.21"
+
 projects[oembed][subdir] = "contrib"
 projects[oembed][version] = "0.6"
 
