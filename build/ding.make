@@ -172,6 +172,9 @@ projects[tagadelic][version] = "1.2"
 projects[term_node_count][subdir] = "contrib"
 projects[term_node_count][version] = "1.3"
 
+projects[tinymce_node_picker][subdir] = "contrib"
+projects[tinymce_node_picker][version] = "2.1"
+
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.14"
 
