@@ -141,6 +141,7 @@ function _ding_profile_modules() {
     'dynamo',
     'helbib_base',
     'helbib_webform',
+    'helbib_profile_image',
   );
 }
 
