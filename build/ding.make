@@ -254,11 +254,11 @@ projects[webtrends][download][revision] = "v1.1.0"
 
 projects[helbib][type] = "module"
 projects[helbib][download][type] = "git"
-projects[helbib][download][url] = "https://github.com/reload/helbib.git"
+projects[helbib][download][url] = "https://github.com/helsbib/helsbib-modules.git"
 
 projects[elsinore][type] = "theme"
 projects[elsinore][download][type] = "git"
-projects[elsinore][download][url] = "https://github.com/reload/elsinore.git"
+projects[elsinore][download][url] = "https://github.com/helsbib/elsinore.git"
 
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.2"
