@@ -29,13 +29,13 @@ projects[better_formats][subdir] = "contrib"
 projects[better_formats][version] = "1.2"
 
 projects[cache_actions][subdir] = "contrib"
-projects[cache_actions][version] = "1.0-alpha2"
+projects[cache_actions][version] = "1.0"
 
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.8"
 
 projects[comment_notify][subdir] = "contrib"
-projects[comment_notify][version] = "1.4"
+projects[comment_notify][version] = "1.5"
 
 projects[content_profile][subdir] = "contrib"
 projects[content_profile][version] = "1.0"
@@ -44,7 +44,7 @@ projects[ctm][subdir] = "contrib"
 projects[ctm][version] = "1.0"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.7"
+projects[ctools][version] = "1.8"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.6"
@@ -69,6 +69,7 @@ projects[insert][version] = "1.0-beta6"
 
 projects[flexifield][subdir] = "contrib"
 projects[flexifield][version] = "1.0-alpha5"
+projects[flexifield][patch][] = "http://drupal.org/files/issues/flexifield-390480-22.patch"
 
 projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.2"
@@ -86,7 +87,7 @@ projects[image_resize_filter][subdir] = "contrib"
 projects[image_resize_filter][version] = "1.9"
 
 projects[imageapi][subdir] = "contrib"
-projects[imageapi][version] = "1.8"
+projects[imageapi][version] = "1.9"
 
 projects[imagecache][subdir] = "contrib"
 projects[imagecache][version] = "2.0-beta10"
@@ -128,22 +129,23 @@ projects[menu_block][subdir] = "contrib"
 projects[menu_block][version] = "2.3"
 
 projects[oembed][subdir] = "contrib"
-projects[oembed][version] = "0.6"
+projects[oembed][version] = "0.8"
 
-projects[office_hours][type] = "module" 
+projects[office_hours][type] = "module"
 projects[office_hours][subdir] = "contrib"
-projects[office_hours][download][type] = "git" 
-projects[office_hours][download][url] = "http://github.com/mikl/drupal-office_hours.git"
-projects[office_hours][download][revision] = "9a33296734d534a20a66731de2008cf17f4f71e5"
+projects[office_hours][download][type] = "git"
+projects[office_hours][download][url] = "https://github.com/dingproject/drupal-office_hours.git"
+projects[office_hours][download][tag] = "DRUPAL-6--2-0-UNOFFICIAL7"
 
 projects[panels][subdir] = "contrib"
-projects[panels][version] = "3.7"
+projects[panels][version] = "3.8"
+projects[panels][patch][] = "https://github.com/downloads/dingproject/ding-deploy/panels_legacy_mode_disabling.patch"
 
 projects[path_redirect][subdir] = "contrib"
-projects[path_redirect][version] = "1.0-beta7"
+projects[path_redirect][version] = "1.0-rc1"
 
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "2.0-alpha2"
+projects[pathauto][version] = "2.0-alpha3"
 
 projects[potx][subdir] = "contrib"
 projects[potx][version] = "3.2"
@@ -153,6 +155,7 @@ projects[purl][version] = "1.0-beta13"
 
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "1.3"
+projects[rules][patch][] = "https://github.com/downloads/dingproject/ding-deploy/rules_dont_clear_cache_on_form_alter.patch"
 
 projects[similarterms][subdir] = "contrib"
 projects[similarterms][version] = "1.18"
@@ -176,7 +179,7 @@ projects[tinymce_node_picker][subdir] = "contrib"
 projects[tinymce_node_picker][version] = "2.1"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.14"
+projects[token][version] = "1.15"
 
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.0"
@@ -185,64 +188,77 @@ projects[vertical_tabs][subdir] = "contrib"
 projects[vertical_tabs][version] = "1.0-rc1"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "2.11"
+projects[views][version] = "2.12"
 
 projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "1.9"
+projects[views_bulk_operations][version] = "1.10"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.2"
+projects[webform][version] = "3.5"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.1"
 
 ; Themes
-projects[tao][location] = "http://code.developmentseed.org/fserver"
-projects[tao][version] = "3.1"
+projects[tao][version] = "3.2"
 
-projects[rubik][location] = "http://code.developmentseed.org/fserver"
-projects[rubik][version] = "3.0-beta1"
+projects[rubik][version] = "3.0-beta2"
 
-projects[mothership][version] = "1.1" 
+projects[mothership][version] = "1.1"
 
 ; Ding theme
 
-projects[dynamo][type] = "theme" 
-projects[dynamo][download][type] = "git" 
-projects[dynamo][download][url] = "http://github.com/dingproject/dynamo.git"
-projects[dynamo][download][revision] = "v2.0.4"
+projects[dynamo][type] = "theme"
+projects[dynamo][download][type] = "git"
+projects[dynamo][download][url] = "https://github.com/dingproject/dynamo.git"
+projects[dynamo][download][revision] = "v2.1.5"
 
 ; Ding modules
 
-projects[alma][type] = "module" 
-projects[alma][download][type] = "git" 
-projects[alma][download][url] = "http://github.com/dingproject/alma.git"
-projects[alma][download][revision] = "v1.4.0rc2"
+projects[alma][type] = "module"
+projects[alma][download][type] = "git"
+projects[alma][download][url] = "https://github.com/dingproject/alma.git"
+projects[alma][download][revision] = "v1.5.4"
 
-projects[ding][type] = "module" 
-projects[ding][download][type] = "git" 
-projects[ding][download][url] = "http://github.com/dingproject/ding.git"
-projects[ding][download][revision] = "v1.3.4"
+projects[openruth][type] = "module"
+projects[openruth][download][type] = "git"
+projects[openruth][download][url] = "https://github.com/dingproject/openruth.git"
+projects[openruth][download][revision] = "v1.0.7"
 
-projects[ding_campaign][type] = "module" 
-projects[ding_campaign][download][type] = "git" 
-projects[ding_campaign][download][url] = "http://github.com/dingproject/ding-campaign.git"
-projects[ding_campaign][download][revision] = "v1.2.0"
+projects[ding][type] = "module"
+projects[ding][download][type] = "git"
+projects[ding][download][url] = "https://github.com/dingproject/ding.git"
+projects[ding][download][revision] = "v1.5.6"
 
-projects[ting][type] = "module" 
-projects[ting][download][type] = "git" 
-projects[ting][download][url] = "http://github.com/dingproject/ting.git"
-projects[ting][download][revision] = "v1.3.4"
+projects[ding_campaign][type] = "module"
+projects[ding_campaign][download][type] = "git"
+projects[ding_campaign][download][url] = "https://github.com/dingproject/ding-campaign.git"
+projects[ding_campaign][download][revision] = "v1.3.1"
+
+projects[ting][type] = "module"
+projects[ting][download][type] = "git"
+projects[ting][download][url] = "https://github.com/dingproject/ting.git"
+projects[ting][download][revision] = "v1.5.4"
+
+projects[trampoline][type] = "module"
+projects[trampoline][download][type] = "git"
+projects[trampoline][download][url] = "https://github.com/dingproject/trampoline.git"
+projects[trampoline][download][revision] = "v1.2"
+
+projects[webtrends][type] = "module"
+projects[webtrends][download][type] = "git"
+projects[webtrends][download][url] = "https://github.com/dingproject/webtrends.git"
+projects[webtrends][download][revision] = "v1.1.0"
 
 ; Elsinore specific
 
 projects[helbib][type] = "module"
 projects[helbib][download][type] = "git"
-projects[helbib][download][url] = "https://github.com/reload/helbib.git"
+projects[helbib][download][url] = "https://github.com/helsbib/helsbib-modules.git"
 
 projects[elsinore][type] = "theme"
 projects[elsinore][download][type] = "git"
-projects[elsinore][download][url] = "https://github.com/reload/elsinore.git"
+projects[elsinore][download][url] = "https://github.com/helsbib/elsinore.git"
 
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.2"
@@ -261,8 +277,8 @@ projects[addthis][patch][] = "http://drupal.org/files/issues/ssl_1.patch"
 
 ; Libraries
 libraries[ting-client][download][type] = "git"
-libraries[ting-client][download][url] = "http://github.com/dingproject/ting-client.git"
-libraries[ting-client][download][revision] = "v0.14"
+libraries[ting-client][download][url] = "https://github.com/dingproject/ting-client.git"
+libraries[ting-client][download][revision] = "v1.0.0"
 libraries[ting-client][destination] = "modules/ting/lib"
 
 libraries[jquery_ui][download][type] = "get"
