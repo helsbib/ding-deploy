@@ -144,6 +144,7 @@ function _ding_profile_modules() {
     'helbib_base',
     'helbib_webform',
     'helbib_profile_image',
+    'helbib_kulturvaerft_export',
     'trampoline',
   );
 }
