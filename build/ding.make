@@ -277,6 +277,8 @@ projects[securepages][patch][] = "http://drupal.org/files/issues/globalbase_url_
 
 projects[addthis][subdir] = "contrib"
 projects[addthis][version] = "2.9"
+; Do not double encode quotes in alt text etc.
+projects[addthis][patch][] = "http://drupal.org/files/issues/addthis-xss_plain-6.x-2.9.patch"
 ; Use https for IE specific style sheet on secure pages - http://drupal.org/node/646882
 projects[addthis][patch][] = "http://drupal.org/files/issues/ssl_1.patch"
 
