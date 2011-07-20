@@ -252,8 +252,7 @@ projects[trampoline][download][revision] = "v1.2"
 
 projects[webtrends][type] = "module"
 projects[webtrends][download][type] = "git"
-projects[webtrends][download][url] = "https://github.com/dingproject/webtrends.git"
-projects[webtrends][download][revision] = "v1.1.0"
+projects[webtrends][download][url] = "https://github.com/helsbib/webtrends.git"
 
 ; Elsinore specific
 
