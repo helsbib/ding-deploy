@@ -274,6 +274,10 @@ projects[helbib][type] = "module"
 projects[helbib][download][type] = "git"
 projects[helbib][download][url] = "https://github.com/helsbib/helsbib-modules.git"
 
+projects[ting_local_bibliography][type] = "module"
+projects[ting_local_bibliography][download][type] = "git"
+projects[ting_local_bibliography][download][url] = "https://github.com/helsbib/ting-local-bibliography"
+
 projects[elsinore][type] = "theme"
 projects[elsinore][download][type] = "git"
 projects[elsinore][download][url] = "https://github.com/helsbib/elsinore.git"
