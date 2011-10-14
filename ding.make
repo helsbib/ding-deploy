@@ -230,7 +230,9 @@ projects[mothership][version] = "1.1"
 projects[dynamo][type] = "theme"
 projects[dynamo][download][type] = "git"
 projects[dynamo][download][url] = "https://github.com/dingproject/dynamo.git"
-projects[dynamo][download][revision] = "v2.2.0"
+; Use a specific SHA after 2.2.0 as this contains our required pull requests
+; but does not have an official tag
+projects[dynamo][download][revision] = "fa65521878dce51824730dd164e4b45662ea6a1a"
 
 ; Ding modules
 
@@ -247,7 +249,9 @@ projects[openruth][download][revision] = "v1.0.9"
 projects[ding][type] = "module"
 projects[ding][download][type] = "git"
 projects[ding][download][url] = "https://github.com/dingproject/ding.git"
-projects[ding][download][revision] = "v1.6.0"
+; Use a specific SHA after 1.6.0 as this contains our required pull requests
+; but does not have an official tag
+projects[ding][download][revision] = "5c3863f222bc36ef055c4b0c258cf9d696d96a60"
 
 projects[ding_campaign][type] = "module"
 projects[ding_campaign][download][type] = "git"
