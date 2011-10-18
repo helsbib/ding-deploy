@@ -280,6 +280,7 @@ projects[helbib][download][url] = "https://github.com/helsbib/helsbib-modules.gi
 projects[ting_local_bibliography][type] = "module"
 projects[ting_local_bibliography][download][type] = "git"
 projects[ting_local_bibliography][download][url] = "https://github.com/helsbib/ting-local-bibliography"
+projects[ting_local_bibliography][download][revision] = "v1.0.0"
 
 projects[elsinore][type] = "theme"
 projects[elsinore][download][type] = "git"
