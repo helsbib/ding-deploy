@@ -148,7 +148,9 @@ projects[office_hours][type] = "module"
 projects[office_hours][subdir] = "contrib"
 projects[office_hours][download][type] = "git"
 projects[office_hours][download][url] = "https://github.com/dingproject/drupal-office_hours.git"
-projects[office_hours][download][tag] = "6.x-2.0-unofficial9"
+; Use a specific SHA after 2.0-unofficial9 as this contains our
+; required pull requests but does not have an official tag
+projects[office_hours][download][revision] = "91f16cb8669c16fdbf9e2b8d6cbdb005fa70cc65"
 
 projects[openlayers][subdir] = contrib
 projects[openlayers][version] = 2.0-beta1
