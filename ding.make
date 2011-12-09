@@ -277,7 +277,7 @@ projects[webtrends][download][url] = "https://github.com/helsbib/webtrends.git"
 
 projects[ding-mobile][type] = "module"
 projects[ding-mobile][download][type] = "git"
-projects[ding-mobile][download][url] = "https://github.com/dingproject/ding-mobile.git"
+projects[ding-mobile][download][url] = "https://github.com/kbib/ding-mobile.git"
 ;projects[ding-mobile][download][revision] = "v1.0"
 
 projects[mobile_tools][subdir] = "contrib"
@@ -288,8 +288,12 @@ projects[browscap][version] = "1.1"
 
 projects[alternator][type] = "theme"
 projects[alternator][download][type] = "git"
-projects[alternator][download][url] = "http://github.com/helsbib/alternator.git"
+projects[alternator][download][url] = http://github.com/kbib/alternator.git
 ;projects[alternator][download][revision] = "v1.0"
+
+projects[mkolding][type] = theme
+projects[mkolding][download][type] = git
+projects[mkolding][download][url] = https://github.com/kbib/kolding-mobile.git
 
 ; Elsinore specific
 
