@@ -231,10 +231,9 @@ projects[mothership][version] = "1.1"
 
 projects[dynamo][type] = "theme"
 projects[dynamo][download][type] = "git"
-projects[dynamo][download][url] = "https://github.com/dingproject/dynamo.git"
-; Use a specific SHA after 2.2.0 as this contains our required pull requests
-; but does not have an official tag
-projects[dynamo][download][revision] = "fa65521878dce51824730dd164e4b45662ea6a1a"
+projects[dynamo][download][url] = "https://github.com/helsbib/dynamo.git"
+; Use the search-A branch
+projects[dynamo][download][branch] = "search-A"
 
 ; Ding modules
 
@@ -250,15 +249,14 @@ projects[openruth][download][revision] = "v1.0.9"
 
 projects[ding][type] = "module"
 projects[ding][download][type] = "git"
-projects[ding][download][url] = "https://github.com/dingproject/ding.git"
-; Use a specific SHA after 1.6.0 as this contains our required pull requests
-; but does not have an official tag
-projects[ding][download][revision] = "5c3863f222bc36ef055c4b0c258cf9d696d96a60"
+projects[ding][download][url] = "https://github.com/helsbib/ding.git"
+; Use the search-A branch
+projects[ding][download][branch] = "helsbib-A"
 
 projects[ding_campaign][type] = "module"
 projects[ding_campaign][download][type] = "git"
-projects[ding_campaign][download][url] = "https://github.com/dingproject/ding-campaign.git"
-projects[ding_campaign][download][revision] = "v1.3.2"
+projects[ding_campaign][download][url] = "https://github.com/helsbib/ding-campaign.git"
+projects[ding_campaign][download][branch] = "helsbib-A"
 
 projects[ting][type] = "module"
 projects[ting][download][type] = "git"
