@@ -55,7 +55,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.8"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.7"
+projects[date][version] = "2.8"
 
 projects[dibs][subdir] = "contrib"
 projects[dibs][type] = "module"
@@ -139,7 +139,7 @@ projects[menu_block][subdir] = "contrib"
 projects[menu_block][version] = "2.4"
 
 projects[nanosoap][subdir] = contrib
-projects[nanosoap][version] = 1.x-dev
+projects[nanosoap][version] = "1.0-beta3"
 
 projects[oembed][subdir] = "contrib"
 projects[oembed][version] = "0.8"
@@ -148,9 +148,7 @@ projects[office_hours][type] = "module"
 projects[office_hours][subdir] = "contrib"
 projects[office_hours][download][type] = "git"
 projects[office_hours][download][url] = "https://github.com/dingproject/drupal-office_hours.git"
-; Use a specific SHA after 2.0-unofficial9 as this contains our
-; required pull requests but does not have an official tag
-projects[office_hours][download][revision] = "91f16cb8669c16fdbf9e2b8d6cbdb005fa70cc65"
+projects[office_hours][download][revision] = "6.x-2.0-unofficial10"
 
 projects[openlayers][subdir] = contrib
 projects[openlayers][version] = 2.0-beta1
@@ -209,10 +207,10 @@ projects[vertical_tabs][subdir] = "contrib"
 projects[vertical_tabs][version] = "1.0-rc1"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "2.12"
+projects[views][version] = "2.14"
 
 projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "1.10"
+projects[views_bulk_operations][version] = "1.12"
 
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.11
@@ -240,7 +238,7 @@ projects[dynamo][download][branch] = "search-A"
 projects[alma][type] = "module"
 projects[alma][download][type] = "git"
 projects[alma][download][url] = "https://github.com/dingproject/alma.git"
-projects[alma][download][revision] = "v1.6.0"
+projects[alma][download][revision] = "v1.7.0"
 
 projects[openruth][type] = "module"
 projects[openruth][download][type] = "git"
@@ -261,11 +259,12 @@ projects[ding_campaign][download][branch] = "helsbib-A"
 projects[ting][type] = "module"
 projects[ting][download][type] = "git"
 projects[ting][download][url] = "https://github.com/helsbib/ting.git"
+projects[ting][download][branch] = "helsbib-A"
 
 projects[trampoline][type] = "module"
 projects[trampoline][download][type] = "git"
 projects[trampoline][download][url] = "https://github.com/dingproject/trampoline.git"
-projects[trampoline][download][revision] = "v1.2.3"
+projects[trampoline][download][revision] = "v1.3.1"
 
 projects[webtrends][type] = "module"
 projects[webtrends][download][type] = "git"
@@ -321,7 +320,7 @@ projects[addthis][version] = "2.10"
 libraries[ting-client][destination] = "modules/ting/lib"
 libraries[ting-client][download][type] = "git"
 libraries[ting-client][download][url] = "https://github.com/dingproject/ting-client.git"
-libraries[ting-client][download][revision] = "v1.1.0"
+libraries[ting-client][download][revision] = "v1.2.0"
 
 libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
