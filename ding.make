@@ -80,6 +80,9 @@ projects[features][patch][] = "http://drupal.org/files/issues/features.860974.pa
 projects[filefield][subdir] = contrib
 projects[filefield][version] = 3.10
 
+projects[flag][subdir] = contrib
+projects[flag][version] = 2.0-beta6
+
 projects[insert][subdir] = contrib
 projects[insert][version] = 1.1
 
@@ -255,6 +258,10 @@ projects[ding_campaign][type] = "module"
 projects[ding_campaign][download][type] = "git"
 projects[ding_campaign][download][url] = "https://github.com/helsbib/ding-campaign.git"
 projects[ding_campaign][download][branch] = "helsbib-A"
+
+projects[ding_redia_feed][type] = "module"
+projects[ding_redia_feed][download][type] = "git"
+projects[ding_redia_feed][download][url] = "https://github.com/helsbib/ding_redia_feed.git"
 
 projects[ting][type] = "module"
 projects[ting][download][type] = "git"
