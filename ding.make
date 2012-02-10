@@ -310,6 +310,10 @@ projects[elsinore][type] = "theme"
 projects[elsinore][download][type] = "git"
 projects[elsinore][download][url] = "https://github.com/helsbib/elsinore.git"
 
+projects[elsinore][type] = "theme"
+projects[elsinore][download][type] = "git"
+projects[elsinore][download][url] = "https://github.com/helsbib/melsinore.git"
+
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.2"
 
