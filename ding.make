@@ -262,6 +262,7 @@ projects[ding_campaign][download][branch] = "helsbib-A"
 projects[ding_redia_feed][type] = "module"
 projects[ding_redia_feed][download][type] = "git"
 projects[ding_redia_feed][download][url] = "https://github.com/helsbib/ding_redia_feed.git"
+projects[ding_redia_feed][download][revision] = "v1.0"
 
 projects[ting][type] = "module"
 projects[ting][download][type] = "git"
