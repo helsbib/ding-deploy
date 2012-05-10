@@ -102,7 +102,13 @@ sub vcl_recv {
     if (req.http.user-agent ~ "Mobile") {
       set req.http.user-agent = "Mobile";
     } else {
-      set req.http.user-agent = "iPad";
+      # Opera Mobile is an odd case, it adds Tablet to the string on tablets
+      # (that's caught above), but not "Mobile" normally.
+      if (req.http.user-agent ~ "Opera Mobi") {
+        set req.http.user-agent = "Mobile";
+      } else {
+        set req.http.user-agent = "iPad";
+      }
     }
   } else if (req.http.user-agent ~ "(?i)ipod|iphone|opera mini|opera mobi|blackberry|up.browser|up.link|mmp|symbian|smartphone|midp|wap|vodafone|o2|pocket|kindle|mobile|pda|psp|treo") {
     # "opera mobi" isn't a typo, Opera Mobile calls itself that.
