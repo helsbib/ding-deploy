@@ -242,6 +242,10 @@ projects[alma][type] = "module"
 projects[alma][download][type] = "git"
 projects[alma][download][url] = "https://github.com/dingproject/alma.git"
 projects[alma][download][revision] = "v1.7.0"
+; Remove auth check from session validation when registering payments to
+; reduce the possibility of payments not being registered.
+; https://github.com/dingproject/alma/pull/10
+projects[alma][patch][] = "https://github.com/dingproject/alma/pull/10.diff"
 
 projects[openruth][type] = "module"
 projects[openruth][download][type] = "git"
