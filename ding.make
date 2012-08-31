@@ -272,6 +272,9 @@ projects[ting][type] = "module"
 projects[ting][download][type] = "git"
 projects[ting][download][url] = "https://github.com/helsbib/ting.git"
 projects[ting][download][branch] = "helsbib-A"
+; Improved logic for displaying online buttons
+; https://github.com/dingproject/ting/pull/44
+projects[ting][patch][] = "https://github.com/dingproject/ting/pull/44.diff"
 
 projects[trampoline][type] = "module"
 projects[trampoline][download][type] = "git"
