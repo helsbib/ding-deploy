@@ -272,6 +272,9 @@ projects[ting][type] = "module"
 projects[ting][download][type] = "git"
 projects[ting][download][url] = "https://github.com/helsbib/ting.git"
 projects[ting][download][branch] = "helsbib-A"
+; Add support for new cover service, moreinfo
+; https://github.com/dingproject/ting/pull/40
+projects[ting][patch][] = "https://github.com/dingproject/ting/pull/40.diff"
 ; Improved logic for displaying online buttons
 ; https://github.com/dingproject/ting/pull/44
 projects[ting][patch][] = "https://github.com/dingproject/ting/pull/44.diff"
