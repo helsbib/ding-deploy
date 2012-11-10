@@ -11,6 +11,7 @@ projects[pressflow][download][url] = "http://files.pressflow.org/pressflow-6-cur
 
 projects[admin][subdir] = "contrib"
 projects[admin][version] = "2.0"
+projects[admin][patch][] = "http://drupal.org/files/0001-Issue-969916-by-Agileware-Breadcrumb-error-in-jquery.patch"
 
 projects[admin_language][subdir] = "contrib"
 projects[admin_language][version] = "1.4"
@@ -43,7 +44,7 @@ projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.9"
 
 projects[comment_notify][subdir] = "contrib"
-projects[comment_notify][version] = "1.5"
+projects[comment_notify][version] = "1.6"
 
 projects[content_profile][subdir] = "contrib"
 projects[content_profile][version] = "1.0"
@@ -55,7 +56,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.8"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.8"
+projects[date][version] = "2.9"
 
 projects[dibs][subdir] = "contrib"
 projects[dibs][type] = "module"
@@ -64,7 +65,7 @@ projects[dibs][download][url] = http://git.drupal.org/project/dibs.git
 projects[dibs][download][revision] = 6.x-1.x
 
 projects[diff][subdir] = "contrib"
-projects[diff][version] = "2.1"
+projects[diff][version] = "2.3"
 
 projects[email][subdir] = "contrib"
 projects[email][version] = "1.2"
@@ -73,7 +74,7 @@ projects[environment_indicator][subdir] = contrib
 projects[environment_indicator][version] = 1.1
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0"
+projects[features][version] = "1.2"
 ; Patch to fix reverting menu links http://drupal.org/node/860974
 projects[features][patch][] = "http://drupal.org/files/issues/features.860974.patch"
 
@@ -91,22 +92,22 @@ projects[flexifield][version] = "1.0-alpha5"
 projects[flexifield][patch][] = "http://drupal.org/files/issues/flexifield-390480-22.patch"
 
 projects[globalredirect][subdir] = "contrib"
-projects[globalredirect][version] = "1.2"
+projects[globalredirect][version] = "1.4"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "3.3"
 
 projects[htmLawed][subdir] = "contrib"
-projects[htmLawed][version] = "2.10"
+projects[htmLawed][version] = "2.12"
 
 projects[image_resize_filter][subdir] = "contrib"
-projects[image_resize_filter][version] = "1.12"
+projects[image_resize_filter][version] = "1.13"
 
 projects[imageapi][subdir] = contrib
 projects[imageapi][version] = 1.10
 
 projects[imagecache][subdir] = contrib
-projects[imagecache][version] = 2.0-beta12
+projects[imagecache][version] = 2.0-rc1
 
 projects[imagecache_actions][subdir] = "contrib"
 projects[imagecache_actions][version] = "1.8"
@@ -115,7 +116,7 @@ projects[imagefield][subdir] = contrib
 projects[imagefield][version] = 3.10
 
 projects[jquery_ui][subdir] = "contrib"
-projects[jquery_ui][version] = "1.4"
+projects[jquery_ui][version] = "1.5"
 
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "1.1"
@@ -142,7 +143,7 @@ projects[menu_block][subdir] = "contrib"
 projects[menu_block][version] = "2.4"
 
 projects[nanosoap][subdir] = contrib
-projects[nanosoap][version] = "1.0-beta3"
+projects[nanosoap][version] = "1.0"
 
 projects[oembed][subdir] = "contrib"
 projects[oembed][version] = "0.8"
@@ -153,18 +154,24 @@ projects[office_hours][download][type] = "git"
 projects[office_hours][download][url] = "https://github.com/dingproject/drupal-office_hours.git"
 projects[office_hours][download][revision] = "6.x-2.0-unofficial10"
 
+projects[opening_hours][subdir] = contrib
+projects[opening_hours][version] = 1.1
+
 projects[openlayers][subdir] = contrib
 projects[openlayers][version] = 2.0-beta1
 
 projects[panels][subdir] = "contrib"
-projects[panels][version] = "3.9"
+projects[panels][version] = "3.10"
 projects[panels][patch][] = "https://github.com/downloads/dingproject/ding-deploy/panels_legacy_mode_disabling.patch"
+
+projects[panels_subsites][subdir] = "contrib"
+projects[panels_subsites][version] = 1.3
 
 projects[path_redirect][subdir] = "contrib"
 projects[path_redirect][version] = "1.0-rc2"
 
 projects[pathauto][subdir] = contrib
-projects[pathauto][version] = 2.0-rc2
+projects[pathauto][version] = 2.0
 
 projects[potx][subdir] = "contrib"
 projects[potx][version] = "3.3"
@@ -186,7 +193,7 @@ projects[spamspan][subdir] = "contrib"
 projects[spamspan][version] = "1.6"
 
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0"
+projects[strongarm][version] = "2.1"
 
 projects[suggestedterms][subdir] = "contrib"
 projects[suggestedterms][version] = "1.3"
@@ -197,29 +204,29 @@ projects[tagadelic][version] = "1.3"
 projects[term_node_count][subdir] = "contrib"
 projects[term_node_count][version] = "1.3"
 
-projects[tinymce_node_picker][subdir] = "contrib"
-projects[tinymce_node_picker][version] = "2.1"
+projects[tipsy][subdir] = contrib
+projects[tipsy][version] = 1.1
 
-projects[token][subdir] = "contrib"
-projects[token][version] = "1.16"
+projects[token][subdir] = contrib
+projects[token][version] = 1.18
 
 projects[transliteration][subdir] = "contrib"
-projects[transliteration][version] = "3.0"
+projects[transliteration][version] = "3.1"
 
 projects[vertical_tabs][subdir] = "contrib"
-projects[vertical_tabs][version] = "1.0-rc1"
+projects[vertical_tabs][version] = "1.0-rc2"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "2.14"
+projects[views][version] = "2.16"
 
 projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "1.12"
+projects[views_bulk_operations][version] = "1.13"
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.11
+projects[webform][version] = 3.17
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.3"
+projects[wysiwyg][version] = "2.4"
 
 ; Themes
 projects[tao][version] = "3.2"
@@ -232,20 +239,20 @@ projects[mothership][version] = "1.1"
 
 projects[dynamo][type] = "theme"
 projects[dynamo][download][type] = "git"
-projects[dynamo][download][url] = "https://github.com/helsbib/dynamo.git"
+projects[dynamo][download][url] = https://github.com/helsbib/dynamo.git
 ; Use the search-A branch
-projects[dynamo][download][branch] = "search-A"
+projects[dynamo][download][branch] = search-A
 
 ; Ding modules
 
 projects[alma][type] = "module"
 projects[alma][download][type] = "git"
 projects[alma][download][url] = "https://github.com/dingproject/alma.git"
-projects[alma][download][revision] = "v1.7.0"
 ; Remove auth check from session validation when registering payments to
 ; reduce the possibility of payments not being registered.
 ; https://github.com/dingproject/alma/pull/10
 projects[alma][patch][] = "https://github.com/dingproject/alma/pull/10.diff"
+projects[alma][download][revision] = "v1.8.0"
 
 projects[openruth][type] = "module"
 projects[openruth][download][type] = "git"
@@ -255,29 +262,34 @@ projects[openruth][download][revision] = "v1.0.9"
 projects[ding][type] = "module"
 projects[ding][download][type] = "git"
 projects[ding][download][url] = "https://github.com/helsbib/ding.git"
-; Use the search-A branch
+; Use the helsbib-A branch
 projects[ding][download][branch] = "helsbib-A"
 
 projects[ding_campaign][type] = "module"
 projects[ding_campaign][download][type] = "git"
-projects[ding_campaign][download][url] = "https://github.com/helsbib/ding-campaign.git"
-projects[ding_campaign][download][branch] = "helsbib-A"
+projects[ding_campaign][download][url] = "https://github.com/dingproject/ding-campaign.git"
+projects[ding_campaign][download][revision] = "v1.5.0"
+projects[ding_campaign][patch][] = https://github.com/dingproject/ding-campaign/pull/9.patch
+
+projects[ding_mobile][type] = "module"
+projects[ding_mobile][download][type] = "git"
+projects[ding_mobile][download][url] = "https://github.com/dingproject/ding-mobile.git"
+projects[ding_mobile][download][revision] = "v1.1.0"
 
 projects[ding_redia_feed][type] = "module"
 projects[ding_redia_feed][download][type] = "git"
-projects[ding_redia_feed][download][url] = "https://github.com/helsbib/ding_redia_feed.git"
-projects[ding_redia_feed][download][revision] = "v1.1"
+projects[ding_redia_feed][download][url] = "https://github.com/dingproject/ding_redia_feed.git"
+projects[ding_redia_feed][download][revision] = "v1.1.0"
+
+projects[ding_tema_sites][type] = module
+projects[ding_tema_sites][download][type] = git
+projects[ding_tema_sites][download][url] = https://github.com/dingproject/ding_tema_sites.git
+projects[ding_tema_sites][download][revision] = "v1.8.0"
 
 projects[ting][type] = "module"
 projects[ting][download][type] = "git"
 projects[ting][download][url] = "https://github.com/helsbib/ting.git"
 projects[ting][download][branch] = "helsbib-A"
-; Add support for new cover service, moreinfo
-; https://github.com/dingproject/ting/pull/40
-projects[ting][patch][] = "https://github.com/dingproject/ting/pull/40.diff"
-; Improved logic for displaying online buttons
-; https://github.com/dingproject/ting/pull/44
-projects[ting][patch][] = "https://github.com/dingproject/ting/pull/44.diff"
 
 projects[trampoline][type] = "module"
 projects[trampoline][download][type] = "git"
@@ -335,6 +347,9 @@ projects[securepages][subdir] = "contrib"
 projects[securepages][version] = "1.8"
 projects[securepages][patch][] = "http://drupal.org/files/issues/globalbase_url_6.x-1.8.patch"
 
+projects[tinymce_node_picker][subdir] = "contrib"
+projects[tinymce_node_picker][version] = "2.1"
+
 projects[addthis][subdir] = "contrib"
 projects[addthis][version] = "2.10"
 
@@ -342,7 +357,7 @@ projects[addthis][version] = "2.10"
 libraries[ting-client][destination] = "modules/ting/lib"
 libraries[ting-client][download][type] = "git"
 libraries[ting-client][download][url] = "https://github.com/dingproject/ting-client.git"
-libraries[ting-client][download][revision] = "v1.2.0"
+libraries[ting-client][download][revision] = "v1.2.1"
 
 libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
