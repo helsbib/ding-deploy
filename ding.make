@@ -68,7 +68,7 @@ projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.3"
 
 projects[email][subdir] = "contrib"
-projects[email][version] = "1.2"
+projects[email][version] = "1.3"
 
 projects[environment_indicator][subdir] = contrib
 projects[environment_indicator][version] = 1.1
@@ -82,20 +82,20 @@ projects[filefield][subdir] = contrib
 projects[filefield][version] = 3.10
 
 projects[flag][subdir] = contrib
-projects[flag][version] = 2.0-beta6
+projects[flag][version] = 2.0
 
 projects[insert][subdir] = contrib
-projects[insert][version] = 1.1
+projects[insert][version] = 1.2
 
 projects[flexifield][subdir] = "contrib"
 projects[flexifield][version] = "1.0-alpha5"
 projects[flexifield][patch][] = "http://drupal.org/files/issues/flexifield-390480-22.patch"
 
 projects[globalredirect][subdir] = "contrib"
-projects[globalredirect][version] = "1.4"
+projects[globalredirect][version] = "1.5"
 
 projects[google_analytics][subdir] = "contrib"
-projects[google_analytics][version] = "3.3"
+projects[google_analytics][version] = "3.5"
 
 projects[htmLawed][subdir] = "contrib"
 projects[htmLawed][version] = "2.12"
@@ -110,7 +110,7 @@ projects[imagecache][subdir] = contrib
 projects[imagecache][version] = 2.0-rc1
 
 projects[imagecache_actions][subdir] = "contrib"
-projects[imagecache_actions][version] = "1.8"
+projects[imagecache_actions][version] = "1.9"
 
 projects[imagefield][subdir] = contrib
 projects[imagefield][version] = 3.10
@@ -125,7 +125,7 @@ projects[link][subdir] = "contrib"
 projects[link][version] = "2.9"
 
 projects[location][subdir] = "contrib"
-projects[location][version] = "3.1"
+projects[location][version] = "3.2"
 
 projects[markdown][subdir] = "contrib"
 projects[markdown][version] = "1.2"
@@ -155,7 +155,7 @@ projects[office_hours][download][url] = "https://github.com/dingproject/drupal-o
 projects[office_hours][download][revision] = "6.x-2.0-unofficial10"
 
 projects[opening_hours][subdir] = contrib
-projects[opening_hours][version] = 1.1
+projects[opening_hours][version] = 1.2
 
 projects[openlayers][subdir] = contrib
 projects[openlayers][version] = 2.0-beta1
@@ -180,7 +180,7 @@ projects[purl][subdir] = "contrib"
 projects[purl][version] = "1.0-beta13"
 
 projects[rules][subdir] = "contrib"
-projects[rules][version] = "1.4"
+projects[rules][version] = "1.5"
 projects[rules][patch][] = "https://github.com/downloads/dingproject/ding-deploy/rules_dont_clear_cache_on_form_alter.patch"
 
 projects[securepages][subdir] = "contrib"
@@ -193,7 +193,7 @@ projects[spamspan][subdir] = "contrib"
 projects[spamspan][version] = "1.6"
 
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.1"
+projects[strongarm][version] = "2.2"
 
 projects[suggestedterms][subdir] = "contrib"
 projects[suggestedterms][version] = "1.3"
@@ -208,7 +208,7 @@ projects[tipsy][subdir] = contrib
 projects[tipsy][version] = 1.1
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.18
+projects[token][version] = 1.19
 
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.1"
@@ -223,7 +223,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "1.13"
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.17
+projects[webform][version] = 3.18
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.4"
@@ -308,10 +308,10 @@ projects[ding-mobile][download][url] = "https://github.com/helsbib/ding-mobile.g
 ;projects[ding-mobile][download][revision] = "v1.0"
 
 projects[mobile_tools][subdir] = "contrib"
-projects[mobile_tools][version] = "2.3"
+projects[mobile_tools][version] = "2.7"
 
 projects[browscap][subdir] = "contrib"
-projects[browscap][version] = "1.1"
+projects[browscap][version] = "1.5"
 
 projects[alternator][type] = "theme"
 projects[alternator][download][type] = "git"
@@ -338,10 +338,10 @@ projects[melsinore][download][type] = "git"
 projects[melsinore][download][url] = "https://github.com/helsbib/melsinore.git"
 
 projects[backup_migrate][subdir] = "contrib"
-projects[backup_migrate][version] = "2.2"
+projects[backup_migrate][version] = "2.6"
 
 projects[memcache][subdir] = "contrib"
-projects[memcache][version] = "1.5"
+projects[memcache][version] = 1.10
 
 projects[securepages][subdir] = "contrib"
 projects[securepages][version] = "1.8"
