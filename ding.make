@@ -81,9 +81,6 @@ projects[features][patch][] = "http://drupal.org/files/issues/features.860974.pa
 projects[filefield][subdir] = contrib
 projects[filefield][version] = 3.10
 
-projects[flag][subdir] = contrib
-projects[flag][version] = 2.0
-
 projects[insert][subdir] = contrib
 projects[insert][version] = 1.2
 
@@ -135,9 +132,6 @@ projects[masquerade][version] = "1.4"
 
 projects[menu_breadcrumb][subdir] = "contrib"
 projects[menu_breadcrumb][version] = "1.3"
-
-projects[node_export][subdir] = "contrib"
-projects[node_export][version] = "2.21"
 
 projects[menu_block][subdir] = "contrib"
 projects[menu_block][version] = "2.4"
@@ -300,59 +294,6 @@ projects[webtrends][type] = "module"
 projects[webtrends][download][type] = "git"
 projects[webtrends][download][url] = "https://github.com/helsbib/webtrends.git"
 
-; Ding mobile
-
-projects[ding-mobile][type] = "module"
-projects[ding-mobile][download][type] = "git"
-projects[ding-mobile][download][url] = "https://github.com/helsbib/ding-mobile.git"
-;projects[ding-mobile][download][revision] = "v1.0"
-
-projects[mobile_tools][subdir] = "contrib"
-projects[mobile_tools][version] = "2.7"
-
-projects[browscap][subdir] = "contrib"
-projects[browscap][version] = "1.5"
-
-projects[alternator][type] = "theme"
-projects[alternator][download][type] = "git"
-projects[alternator][download][url] = "http://github.com/helsbib/alternator.git"
-;projects[alternator][download][revision] = "v1.0"
-
-; Elsinore specific
-
-projects[helbib][type] = "module"
-projects[helbib][download][type] = "git"
-projects[helbib][download][url] = "https://github.com/helsbib/helsbib-modules.git"
-
-projects[ting_local_bibliography][type] = "module"
-projects[ting_local_bibliography][download][type] = "git"
-projects[ting_local_bibliography][download][url] = "https://github.com/helsbib/ting-local-bibliography"
-projects[ting_local_bibliography][download][revision] = "v1.0.1"
-
-projects[elsinore][type] = "theme"
-projects[elsinore][download][type] = "git"
-projects[elsinore][download][url] = "https://github.com/helsbib/elsinore.git"
-
-projects[melsinore][type] = "theme"
-projects[melsinore][download][type] = "git"
-projects[melsinore][download][url] = "https://github.com/helsbib/melsinore.git"
-
-projects[backup_migrate][subdir] = "contrib"
-projects[backup_migrate][version] = "2.6"
-
-projects[memcache][subdir] = "contrib"
-projects[memcache][version] = 1.10
-
-projects[securepages][subdir] = "contrib"
-projects[securepages][version] = "1.8"
-projects[securepages][patch][] = "http://drupal.org/files/issues/globalbase_url_6.x-1.8.patch"
-
-projects[tinymce_node_picker][subdir] = "contrib"
-projects[tinymce_node_picker][version] = "2.1"
-
-projects[addthis][subdir] = "contrib"
-projects[addthis][version] = "2.10"
-
 ; Libraries
 libraries[ting-client][destination] = "modules/ting/lib"
 libraries[ting-client][download][type] = "git"
@@ -369,3 +310,8 @@ libraries[tinymce][download][url] = "https://github.com/downloads/tinymce/tinymc
 libraries[tinymce][directory_name] = "tinymce"
 libraries[tinymce][destination] = "libraries"
 
+; Elsinore specific modules with dependencies.
+
+projects[helbib][type] = "module"
+projects[helbib][download][type] = "git"
+projects[helbib][download][url] = "https://github.com/helsbib/helsbib-modules.git"
