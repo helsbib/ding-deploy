@@ -312,6 +312,6 @@ libraries[tinymce][destination] = "libraries"
 
 ; Elsinore specific modules with dependencies.
 
-projects[helbib][type] = "module"
-projects[helbib][download][type] = "git"
-projects[helbib][download][url] = "https://github.com/helsbib/helsbib-modules.git"
+projects[helbib][type] = module
+projects[helbib][download][type] = git
+projects[helbib][download][url] = https://github.com/helsbib/helsbib-modules.git
