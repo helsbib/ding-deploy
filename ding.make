@@ -68,7 +68,7 @@ projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.3"
 
 projects[email][subdir] = "contrib"
-projects[email][version] = "1.3"
+projects[email][version] = 1.4
 
 projects[environment_indicator][subdir] = contrib
 projects[environment_indicator][version] = 1.1
@@ -125,7 +125,7 @@ projects[location][subdir] = "contrib"
 projects[location][version] = "3.2"
 
 projects[markdown][subdir] = "contrib"
-projects[markdown][version] = "1.2"
+projects[markdown][version] = 1.3
 
 projects[masquerade][subdir] = "contrib"
 projects[masquerade][version] = "1.4"
@@ -149,7 +149,7 @@ projects[office_hours][download][url] = "https://github.com/dingproject/drupal-o
 projects[office_hours][download][revision] = "6.x-2.0-unofficial10"
 
 projects[opening_hours][subdir] = contrib
-projects[opening_hours][version] = 1.2
+projects[opening_hours][version] = 1.3
 
 projects[openlayers][subdir] = contrib
 projects[openlayers][version] = 2.0-beta1
