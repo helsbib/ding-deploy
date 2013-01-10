@@ -53,7 +53,7 @@ projects[ctm][subdir] = contrib
 projects[ctm][version] = 1.1
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.10"
+projects[ctools][version] = "1.8"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.9"
