@@ -258,6 +258,8 @@ projects[ding][download][type] = "git"
 projects[ding][download][url] = "https://github.com/helsbib/ding.git"
 ; Use the helsbib-A branch
 projects[ding][download][branch] = "helsbib-A"
+; https://libraryding.lighthouseapp.com/projects/73202/tickets/173
+projects[ding][patch][] = https://github.com/dingproject/ding/pull/40.patch
 
 projects[ding_campaign][type] = "module"
 projects[ding_campaign][download][type] = "git"
