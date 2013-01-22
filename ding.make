@@ -282,10 +282,16 @@ projects[ding_tema_sites][download][type] = git
 projects[ding_tema_sites][download][url] = https://github.com/dingproject/ding_tema_sites.git
 projects[ding_tema_sites][download][revision] = "v1.8.0"
 
+
 projects[ting][type] = "module"
 projects[ting][download][type] = "git"
 projects[ting][download][url] = "https://github.com/dingproject/ting.git"
-projects[ting][download][revision] = "21f7eb4"
+projects[ting][download][revision] = "v1.8.0-rc2"
+projects[ting][patch][] = https://github.com/dingproject/ting/pull/42.patch
+projects[ting][patch][] = https://github.com/dingproject/ting/pull/44.patch
+projects[ting][patch][] = https://github.com/dingproject/ting/pull/46.patch
+projects[ting][patch][] = https://github.com/dingproject/ting/pull/48.patch
+projects[ting][patch][] = https://github.com/dingproject/ting/pull/49.patch
 ; Helsbib styling changes. Does not apply.
 ;projects[ting][patch][] = https://github.com/dingproject/ting/pull/51.patch
 
@@ -302,7 +308,7 @@ projects[webtrends][download][url] = "https://github.com/helsbib/webtrends.git"
 libraries[ting-client][destination] = "modules/ting/lib"
 libraries[ting-client][download][type] = "git"
 libraries[ting-client][download][url] = "https://github.com/dingproject/ting-client.git"
-libraries[ting-client][download][revision] = "8ffb1a2"
+libraries[ting-client][download][revision] = "v1.2.0"
 
 libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
