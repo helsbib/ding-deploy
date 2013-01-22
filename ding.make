@@ -233,9 +233,10 @@ projects[mothership][version] = "1.1"
 
 projects[dynamo][type] = "theme"
 projects[dynamo][download][type] = "git"
-projects[dynamo][download][url] = https://github.com/helsbib/dynamo.git
-; Use the search-A branch
-projects[dynamo][download][branch] = search-A
+projects[dynamo][download][url] = https://github.com/dingproject/dynamo.git
+projects[dynamo][patch][] = https://github.com/dingproject/dynamo/pull/13.patch
+projects[dynamo][patch][] = https://github.com/dingproject/dynamo/pull/14.patch
+projects[dynamo][patch][] = https://github.com/dingproject/dynamo/pull/15.patch
 
 ; Ding modules
 
@@ -284,8 +285,9 @@ projects[ding_tema_sites][download][revision] = "v1.8.0"
 
 projects[ting][type] = "module"
 projects[ting][download][type] = "git"
-projects[ting][download][url] = "https://github.com/helsbib/ting.git"
-projects[ting][download][branch] = "helsbib-A"
+projects[ting][download][url] = "https://github.com/dingproject/ting.git"
+projects[ting][download][revision] = "21f7eb4"
+projects[ting][patch][] = https://github.com/dingproject/ting/pull/51.patch
 
 projects[trampoline][type] = "module"
 projects[trampoline][download][type] = "git"
