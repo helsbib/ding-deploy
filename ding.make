@@ -234,7 +234,6 @@ projects[mothership][version] = "1.1"
 projects[dynamo][type] = "theme"
 projects[dynamo][download][type] = "git"
 projects[dynamo][download][url] = https://github.com/dingproject/dynamo.git
-projects[dynamo][patch][] = https://github.com/dingproject/dynamo/pull/13.patch
 projects[dynamo][patch][] = https://github.com/dingproject/dynamo/pull/14.patch
 projects[dynamo][patch][] = https://github.com/dingproject/dynamo/pull/15.patch
 
