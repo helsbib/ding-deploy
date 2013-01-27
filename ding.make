@@ -236,6 +236,7 @@ projects[dynamo][download][type] = "git"
 projects[dynamo][download][url] = https://github.com/dingproject/dynamo.git
 projects[dynamo][patch][] = https://github.com/dingproject/dynamo/pull/14.patch
 projects[dynamo][patch][] = https://github.com/dingproject/dynamo/pull/15.patch
+projects[dynamo][patch][] = https://github.com/dingproject/dynamo/pull/16.patch
 
 ; Ding modules
 
