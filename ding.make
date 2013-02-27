@@ -234,9 +234,9 @@ projects[mothership][version] = "1.1"
 projects[dynamo][type] = "theme"
 projects[dynamo][download][type] = "git"
 projects[dynamo][download][url] = https://github.com/dingproject/dynamo.git
+projects[dynamo][download][revision] = 4da8b2d551
 projects[dynamo][patch][] = https://github.com/dingproject/dynamo/pull/14.patch
-projects[dynamo][patch][] = https://github.com/dingproject/dynamo/pull/15.patch
-projects[dynamo][patch][] = https://github.com/dingproject/dynamo/pull/16.patch
+projects[dynamo][patch][] = https://github.com/dingproject/dynamo/pull/17.patch
 
 ; Ding modules
 
