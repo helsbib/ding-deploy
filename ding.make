@@ -18,6 +18,7 @@ projects[admin_language][version] = "1.4"
 
 projects[admin_theme][subdir] = "contrib"
 projects[admin_theme][version] = "1.3"
+projects[admin_theme][patch][] = http://drupal.org/files/dont-break-custom-theme-803866-8.patch
 
 projects[adminrole][subdir] = "contrib"
 projects[adminrole][version] = "1.3"
@@ -268,8 +269,8 @@ projects[ding_campaign][patch][] = https://github.com/dingproject/ding-campaign/
 
 projects[ding_mobile][type] = "module"
 projects[ding_mobile][download][type] = "git"
-projects[ding_mobile][download][url] = "https://github.com/dingproject/ding-mobile.git"
-projects[ding_mobile][download][revision] = "v1.1.0"
+projects[ding_mobile][download][url] = "https://github.com/helsbib/ding-mobile.git"
+projects[ding_mobile][download][branch] = contrib-update
 
 projects[ding_redia_feed][type] = "module"
 projects[ding_redia_feed][download][type] = "git"
