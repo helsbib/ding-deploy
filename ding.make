@@ -292,6 +292,8 @@ projects[ting][patch][] = https://github.com/dingproject/ting/pull/44.patch
 projects[ting][patch][] = https://github.com/dingproject/ting/pull/46.patch
 projects[ting][patch][] = https://github.com/dingproject/ting/pull/48.patch
 projects[ting][patch][] = https://github.com/dingproject/ting/pull/49.patch
+projects[ting][patch][] = https://github.com/dingproject/ting/pull/54.patch
+projects[ting][patch][] = https://raw.github.com/helsbib/ting/master/fix-ranking-and-boost-bug-for-180rc2.patch
 ; Helsbib styling changes. Does not apply.
 ;projects[ting][patch][] = https://github.com/dingproject/ting/pull/51.patch
 
