@@ -17,6 +17,7 @@ $api = 1;
  * Drake Reload settings. This allows us to re-run drg.
  */
 $drake_reload = array(
+  'core' => '6.x',
   'site_name' => 'Helsingør Bibliotek',
   'type' => 'ding',
   'ding_url' => 'git@github.com:helsbib/ding-deploy.git',
@@ -41,6 +42,8 @@ $drake_reload = array(
  * Global context.
  */
 $context = array(
+  // Drupal core version.
+  'core' => '6.x',
   // Prod site alias.
   '@env.prod' => '@r.helsbib.prod',
   // Staging site alias.
